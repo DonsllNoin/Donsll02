@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OkHttp.OkHttpActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/okhttp_btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="GET 同步请求"/>
+
+    <Button
+        android:id="@+id/okhttp_btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="GET 异步请求"/>
+
+    <Button
+        android:id="@+id/okhttp_btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="POST 同步请求"/>
+
+    <Button
+        android:id="@+id/okhttp_btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="POST 同步请求"/>
+
+    <Button
+        android:id="@+id/okhttp_btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="POST 上传文件"/>
+
+
+</LinearLayout>

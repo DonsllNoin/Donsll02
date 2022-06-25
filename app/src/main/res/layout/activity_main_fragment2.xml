@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MainFragmentActivity2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mBtn_change1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="change1"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/mBtn_change2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="change2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/mBtn_transport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="transport"
+        android:textSize="20sp"/>
+
+    <FrameLayout
+        android:id="@+id/fl_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#09F7C7"/>
+
+
+</LinearLayout>

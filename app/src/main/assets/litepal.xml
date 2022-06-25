@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--  指定数据库的 名称  -->
+    <dbname value="Bookstore"></dbname>
+
+    <!--  指定数据库的 版本  -->
+    <version value="1"></version>
+
+    <!--  指定所有的 映射模型  -->
+    <list>
+
+        <!--  导入表格  -->
+        <mapping class="com.example.donsll02.LitePal.Book"></mapping>
+    </list>
+
+</litepal>
+
+
